@@ -1,4 +1,4 @@
-package com.studiopulsar.feintha.atbf;
+package com.studiopulsar.feintha.armortrims;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;

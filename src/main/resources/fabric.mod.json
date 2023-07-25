@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "atbf",
+  "id": "armortrims",
   "version": "${version}",
   "name": "Armor Trim Backport Fabric",
   "description": "",
@@ -9,14 +9,14 @@
     "repo": "https://github.com/avetharun/FabricArmor Trim Backport Fabric"
   },
   "license": "GPL-3.0",
-  "icon": "assets/atbf/icon.png",
+  "icon": "assets/armortrims/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.studiopulsar.feintha.atbf.client.ArmorTrimBackportFabricClient"
+      "com.studiopulsar.feintha.armortrims.client.ArmorTrimBackportFabricClient"
     ],
     "main": [
-      "com.studiopulsar.feintha.atbf.ArmorTrimBackportFabric"
+      "com.studiopulsar.feintha.armortrims.ArmorTrimBackportFabric"
     ]
   },
   "mixins": [

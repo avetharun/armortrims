@@ -1,6 +1,6 @@
-package com.studiopulsar.feintha.atbf;
+package com.studiopulsar.feintha.armortrims;
 
-import com.studiopulsar.feintha.atbf.client.SmithingScreen;
+import com.studiopulsar.feintha.armortrims.client.SmithingScreen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.player.PlayerEntity;

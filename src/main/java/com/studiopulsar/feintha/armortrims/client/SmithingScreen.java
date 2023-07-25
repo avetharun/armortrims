@@ -1,7 +1,7 @@
-package com.studiopulsar.feintha.atbf.client;
+package com.studiopulsar.feintha.armortrims.client;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.studiopulsar.feintha.atbf.HandledSmithingScreen;
+import com.studiopulsar.feintha.armortrims.HandledSmithingScreen;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
