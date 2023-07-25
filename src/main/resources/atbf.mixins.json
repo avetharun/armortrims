@@ -4,8 +4,10 @@
   "package": "com.studiopulsar.feintha.atbf.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "HandledScreensMixin$SmithingTableScreenMixin"
   ],
   "client": [
+    "HandledScreensMixin"
   ],
   "injectors": {
     "defaultRequire": 1

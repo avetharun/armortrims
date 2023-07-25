@@ -1,13 +1,15 @@
 package com.studiopulsar.feintha.atbf;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.util.Identifier;
 
-public abstract class SmithingTemplateItem extends Item {
-    public SmithingTemplateItem(Settings settings) {
-        super(settings);
+public abstract class AbstractSmithingTemplateItem extends Item {
+    public AbstractSmithingTemplateItem() {
+        super(new FabricItemSettings());
     }
-    public abstract ATAPI.TrimPattern getTrimPattern();
+    public abstract Identifier getTrimPattern();
     @Override
     public void postProcessNbt(NbtCompound nbt) {
         super.postProcessNbt(nbt);
